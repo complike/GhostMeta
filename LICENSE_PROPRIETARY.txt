@@ -1,0 +1,55 @@
+GhostEngine Proprietary License
+Version 1.2.0 — © 2003–2026 Bülent Deniz
+
+1. Ownership
+The GhostEngine (including but not limited to: source code, binaries,
+algorithms, architecture, NEON optimizations, state-shift mechanics,
+scatter-gather topology, seeds, rebuild logic, Ghost-Shell, Ghost-Key,
+and all related intellectual property) is the exclusive property of
+Bülent Deniz.
+
+No rights are granted except those explicitly stated in this license.
+
+2. Grant of Use
+You are granted a non-exclusive, non-transferable, revocable license to:
+- run the GhostEngine binary,
+- integrate the binary into your own applications,
+- use the GhostEngine for research, analysis, or internal tooling.
+
+This license does NOT grant access to the source code.
+
+Linking (static or dynamic) of the GhostEngine binary with other software
+is permitted, as long as the GhostEngine remains a separate, unmodified
+binary and is not merged, embedded, or repackaged into a single file
+that obscures its origin.
+
+3. Restrictions
+You are NOT permitted to:
+- copy, distribute, or sublicense the GhostEngine binary,
+- modify, decompile, disassemble, or reverse engineer the GhostEngine,
+- extract algorithms, data structures, or internal logic,
+- use the GhostEngine to build competing cryptographic or forensic engines,
+- publish benchmarks, internal behavior, or performance characteristics
+  without explicit written permission.
+
+4. No Redistribution
+The GhostEngine binary may NOT be redistributed in any form.
+Each user or organization must obtain their own license.
+
+5. No Warranty
+The GhostEngine is provided “AS IS” without any warranty of any kind.
+Use at your own risk.
+
+6. Commercial Use
+Commercial use is permitted only with a separate written agreement
+between the licensee and Bülent Deniz.
+
+7. Termination
+Any violation of this license terminates all granted rights immediately.
+Upon termination, all copies of the GhostEngine must be deleted.
+
+8. Governing Law
+This license is governed by the laws of Germany (Bundesrepublik Deutschland).
+Exclusive jurisdiction: Aachen / NRW.
+
+© 2003–2026 Bülent Deniz. All rights reserved.
