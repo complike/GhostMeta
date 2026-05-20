@@ -221,33 +221,32 @@ Limitations (v1.2.0)
 
 ----------------------------------------------------------------------
 
-License
+## License
 
-  - GhostMeta source code – GNU General Public License v3.0
-    (see LICENSE file).
-  - GhostEngine v40 binary – proprietary, statically linked,
-    not covered by GPL.
-
-GhostMeta source code – MIT License (see LICENSE file).
+### GhostMeta (source code)
+GhostMeta is released under the MIT License.  
 This allows free use, modification, distribution, and integration of the GhostMeta source code in both open‑source and proprietary projects.
 
-GhostEngine v40 binary – proprietary, not open source, not included in this repository.
-The GhostEngine is distributed as a separate, closed‑source binary under its own proprietary license.
-This license explicitly forbids:
+See the LICENSE file for the full MIT License text.
 
-redistribution of the GhostEngine binary
+### GhostEngine v40 (binary)
+The GhostEngine v40 binary is proprietary and not open source.  
+It is not included in this repository and is distributed separately under its own proprietary license.
 
-reverse engineering, decompilation, or disassembly
+The GhostEngine license explicitly forbids:
+- redistribution of the GhostEngine binary  
+- reverse engineering, decompilation, or disassembly  
+- modification or extraction of internal algorithms  
+- integration into competing forensic or cryptographic engines  
 
-modification or extraction of internal algorithms
+Static or dynamic linking to the GhostEngine binary is permitted only if:
+- the binary remains unmodified  
+- it is kept as a separate component  
+- its origin is not obscured or repackaged  
 
-integration into competing forensic or cryptographic engines
-
-Linking (static or dynamic) to the GhostEngine binary is permitted as long as the binary remains a separate, unmodified component and is not merged or repackaged in a way that obscures its origin.
-
-Summary:
-- GhostMeta → MIT License (open source)
-- GhostEngine → Proprietary License (closed source, binary‑only)
+### Summary
+- **GhostMeta → MIT License (open source)**  
+- **GhostEngine → Proprietary License (closed source, binary‑only)**  
 
 This dual‑license model allows GhostMeta to remain open and community‑driven while ensuring that the GhostEngine technology remains protected.
 
