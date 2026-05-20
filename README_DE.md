@@ -198,32 +198,30 @@ Einschränkungen (v1.2.0)
 
 ----------------------------------------------------------------------
 
-Lizenz
+## Lizenz
 
-  - GhostMeta Quellcode – GNU General Public License v3.0
-  - GhostEngine v40 Binary – proprietär, statisch gelinkt,
-    nicht durch die GPL abgedeckt
-
+### GhostMeta (Quellcode)
 Der GhostMeta‑Quellcode steht unter der MIT‑Lizenz (siehe LICENSE).
 Dies erlaubt die freie Nutzung, Veränderung, Weitergabe und Integration des GhostMeta‑Codes – sowohl in offenen als auch in proprietären Projekten.
 
+### GhostEngine v40 (Binary)
 Die GhostEngine v40 ist proprietär, nicht quelloffen und nicht Bestandteil dieses Repositories.
 Sie wird als separate, geschlossene Binärkomponente unter einer eigenen Lizenz bereitgestellt.
+
 Diese Lizenz untersagt ausdrücklich:
+- Weitergabe der GhostEngine‑Binary
+- Reverse Engineering, Dekompilierung oder Disassemblierung
+- Modifikation oder Extraktion interner Algorithmen
+- Integration in konkurrierende forensische oder kryptografische Engines
 
-Weitergabe der GhostEngine‑Binary
+Das Linken (statisch oder dynamisch) der GhostEngine‑Binary ist erlaubt, solange:
+- die Binary unverändert bleibt,
+- sie als separate Komponente erhalten bleibt,
+- ihr Ursprung nicht verschleiert oder neu verpackt wird.
 
-Reverse Engineering, Dekompilierung oder Disassemblierung
-
-Modifikation oder Extraktion interner Algorithmen
-
-Integration in konkurrierende forensische oder kryptografische Engines
-
-Das Linken (statisch oder dynamisch) der GhostEngine‑Binary ist erlaubt, solange die Binary unverändert bleibt und nicht in einer Weise zusammengeführt oder neu verpackt wird, die ihren Ursprung verschleiert.
-
-Zusammenfassung:
-- GhostMeta → MIT‑Lizenz (Open Source)
-- GhostEngine → proprietäre Lizenz (Closed Source, Binary‑only)
+### Zusammenfassung
+- **GhostMeta → MIT‑Lizenz (Open Source)**
+- **GhostEngine → proprietäre Lizenz (Closed Source, Binary‑only)**
 
 Dieses Dual‑Lizenzmodell ermöglicht es, GhostMeta offen und community‑orientiert zu halten, während die Technologie der GhostEngine geschützt bleibt.
 
